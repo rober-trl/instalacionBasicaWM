@@ -7,5 +7,6 @@
 ./instalacionProgramas.sh
 
 #Clonamos repositorio con scripts y config
+./configurarBin.sh
 
 
