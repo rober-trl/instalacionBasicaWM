@@ -1,0 +1,19 @@
+#!/bin/bash
+#cd /home/rober/github/bd2
+count=0
+for i in $*
+do
+ lista[$count]=$i
+ ((count = count + 1))
+done
+
+comentario=`echo "${lista[*]"}`
+git add .
+date=`date`
+if [ comentario ]
+then
+ git commit -m "$date" -m "$comentario"
+else
+ git commit -m "$date" .
+fi
+ git push

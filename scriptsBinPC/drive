@@ -1,0 +1,3 @@
+#!/bin/bash
+nautilus /run/user/1000/gvfs/google-drive:host=unizar.es,user=780906
+
