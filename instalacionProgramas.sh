@@ -3,7 +3,9 @@
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install xournal -y
+sudo add-apt-repository ppa:apandada1/xournalpp-stable
+sudo apt update
+sudo apt install xournalpp -y
 sudo apt install curl -y
 sudo apt install git -y
 sudo apt install copyq -y
