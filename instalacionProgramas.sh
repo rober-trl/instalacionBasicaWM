@@ -15,6 +15,8 @@ sudo apt install xdotool -y
 sudo apt install obs -y
 sudo apt install i3lock xautolock -y
 sudo apt install nautilus -y
+sudo apt install xlcip -y
+sudo apt install i3* -y
 wget https://az764295.vo.msecnd.net/stable/7f6ab5485bbc008386c4386d08766667e155244e/code_1.60.2-1632313585_amd64.deb
 sudo dpkg -i code_1.60.2-1632313585_amd64.deb
 rm  code_1.60.2-1632313585_amd64.deb
